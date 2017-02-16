@@ -71,6 +71,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'learning_log.wsgi.application'
 
+LOGIN_URL = '/users/login/'
 
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
